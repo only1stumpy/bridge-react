@@ -18,12 +18,12 @@ export default function Home(){
         <div>
             <header>
                 <div className="flex flex-row h-[100px] items-center justify-between">
-                    <a href="#"><img src={logo_header} alt="Bridge" className="ml-[50px]"/></a>
+                    <a href="/"><img src={logo_header} alt="Bridge" className="ml-[50px]"/></a>
                     <div className="flex flex-row w-[254px] justify-between *:size-[55px] *:flex *:items-center *:justify-center *:bg-[#262626] *:rounded-lg hover:*:bg-[#535353] *:transition *:ease-in *:duration-300">
-                        <a href="#"><img src={dollar} alt="$"/></a>
-                        <a href="#"><img src={lightning} alt="/"/></a>
-                        <a href="#"><img src={hashtag} alt="#"/></a>
-                        <a href="#"><img src={smile} alt="=)"/></a>
+                        <a href="/"><img src={dollar} alt="$"/></a>
+                        <a href="/"><img src={lightning} alt="/"/></a>
+                        <a href="/"><img src={hashtag} alt="#"/></a>
+                        <a href="/"><img src={smile} alt="=)"/></a>
                     </div>
                     <div className="mr-[44px] flex flex-row items-center">
                         <p className="font-roboto text-[22px] mr-[35px] text-white">Get the App</p>
@@ -57,15 +57,15 @@ export default function Home(){
             <section>
                 <div className="h-[250px] w-full flex items-center relative justify-center mt-5">
                     <p className="flex flex-row items-center text-[40px] font-roboto text-white whitespace-nowrap animate-marquee">
-                        Eva earned  <span className="text-[#FFC8D0] ml-[18px]">300 coins</span><img src={star} className="mx-[28px]"/>
-                        Max earned  <span className="text-[#FFC8D0] ml-[18px]">115 coins</span><img src={star} className="mx-[28px]"/>
-                        Lori earned  <span className="text-[#FFC8D0] ml-[18px]">289 coins</span><img src={star} className="mx-[28px]"/>
-                        Nick earned  <span className="text-[#FFC8D0] ml-[18px]">77 coins</span><img src={star} className="mx-[28px]"/>
-                        Irene earned  <span className="text-[#FFC8D0] ml-[18px]">1000 coins</span><img src={star} className="mx-[28px]"/>
-                        Darius earned  <span className="text-[#FFC8D0] ml-[18px]">542 coins</span><img src={star} className="mx-[28px]"/>
-                        Juana earned  <span className="text-[#FFC8D0] ml-[18px]">522 coins</span><img src={star} className="mx-[28px]"/>
-                        Aaron earned  <span className="text-[#FFC8D0] ml-[18px]">611 coins</span><img src={star} className="mx-[28px]"/>
-                        Tyne earned  <span className="text-[#FFC8D0] ml-[18px]">222 coins</span><img src={star} className="mx-[28px]"/>
+                        Eva earned  <span className="text-[#FFC8D0] ml-[18px]">300 coins</span><img src={star} className="mx-[28px]" alt=""/>
+                        Max earned  <span className="text-[#FFC8D0] ml-[18px]">115 coins</span><img src={star} className="mx-[28px]" alt=""/>
+                        Lori earned  <span className="text-[#FFC8D0] ml-[18px]">289 coins</span><img src={star} className="mx-[28px]" alt=""/>
+                        Nick earned  <span className="text-[#FFC8D0] ml-[18px]">77 coins</span><img src={star} className="mx-[28px]" alt=""/>
+                        Irene earned  <span className="text-[#FFC8D0] ml-[18px]">1000 coins</span><img src={star} className="mx-[28px]" alt=""/>
+                        Darius earned  <span className="text-[#FFC8D0] ml-[18px]">542 coins</span><img src={star} className="mx-[28px]" alt=""/>
+                        Juana earned  <span className="text-[#FFC8D0] ml-[18px]">522 coins</span><img src={star} className="mx-[28px]" alt=""/>
+                        Aaron earned  <span className="text-[#FFC8D0] ml-[18px]">611 coins</span><img src={star} className="mx-[28px]" alt=""/>
+                        Tyne earned  <span className="text-[#FFC8D0] ml-[18px]">222 coins</span><img src={star} className="mx-[28px]" alt=""/>
                     </p>
                     <div className="flex items-center absolute w-[90vw] border-y border-[#262626] h-[215px]"></div>
                     <img src={dollargold} alt="" className="absolute left-[80%] top-[90px] z-10"/>
