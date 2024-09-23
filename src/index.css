@@ -29,3 +29,42 @@ body{
 .animate-marquee {
   animation: marquee 20s linear infinite;
 }
+
+@keyframes pulse-scale {
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.1);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+.animate-pulse-scale{
+  animation: pulse-scale 5s ease-in-out infinite;
+}
+
+.glitch img{
+  animation: glitch 2.5s ease-in-out infinite;
+}
+@keyframes glitch {
+  0%, 100% {
+      transform: translate(0);
+  }
+  20% {
+      transform: translate(-5px, 3px);
+  }
+  40% {
+      transform: translate(3px, -5px);
+  }
+  60% {
+      transform: translate(-1px, 1px);
+  }
+  80% {
+      transform: translate(1px, -1px);
+  }
+}
+footer{
+  background-image: url(./img/footer-gradient.png);
+}
