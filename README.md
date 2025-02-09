@@ -1,4 +1,4 @@
-# Link: https://only1stumpybridge.netlify.app
+# Link/Ссылка: https://only1stumpybridge.netlify.app
 ---
 ### **ENG**  
 **Bridge React** is a web application built with **React** and **Tailwind CSS**, designed to provide a modern, responsive user interface. The project showcases how to build a simple but functional web app with a clean layout and dynamic components, styled using Tailwind's utility-first CSS framework for quick and flexible customization.
